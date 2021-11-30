@@ -1,5 +1,6 @@
 from math_series.series import fibonacci
 from math_series.series import lucas
+from math_series.series import sum_series
 import pytest
 
 
@@ -39,4 +40,14 @@ def test_lucas_one():
 def test_lucas_two():
     actual = lucas(2)
     expected = 3
+    assert actual == expected
+
+def test_sum_series_two():
+    actual = sum_series(3,2,1)
+    expected = 4
+    assert actual == expected
+
+def test_sum_series_three():
+    actual = sum_series(3)
+    expected = 2
     assert actual == expected

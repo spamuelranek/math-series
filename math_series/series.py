@@ -21,3 +21,12 @@ def lucas(n):
   else:
     polo = lucas(n-1) + lucas(n-2)
     return polo
+
+def sum_series(n,zero_position = 0, first_postition = 1):
+  if n==0:
+    return zero_position
+  elif n==1:
+    return first_postition
+  else:
+    polo = sum_series(n-1,zero_position, first_postition) + sum_series(n-2,zero_position, first_postition)
+    return polo
