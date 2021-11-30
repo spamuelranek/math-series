@@ -1,4 +1,4 @@
 ## Deplyoment
 - none
 ## PR
-https://github.com/spamuelranek/math-series/pulls/1
+https://github.com/spamuelranek/math-series/pull/1
