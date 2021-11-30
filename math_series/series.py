@@ -4,10 +4,10 @@ def fibonacci(n):
   of the fibonacci series when n>=1
   """
   if n == 0 or n== 1:
-    return str(n)
+    return n
   else:
     marco = fibonacci(n-1) + fibonacci(n-2)
-    return str(marco)
+    return marco
 
 def lucas(n):
   """
@@ -15,9 +15,9 @@ def lucas(n):
   of the lucas series when n>=1
   """
   if n==0:
-    return str(2)
+    return 2
   elif n==1:
-    return str(1)
+    return 1
   else:
     polo = lucas(n-1) + lucas(n-2)
     return polo
